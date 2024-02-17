@@ -149,3 +149,8 @@ git pull
 ```sh
 git clone [remote_repo_url_or_ssh]
 ```
+
+- удаление ветки в удаленном репозитории
+```sh
+git push origin --delete [branch_name]
+```
