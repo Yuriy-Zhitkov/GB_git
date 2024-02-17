@@ -137,10 +137,10 @@ git push -u origin main
 
 - скачать с удаленного репозитория
 ```sh
-git pull 
+git pull
 ```
 
 - клонировать удаленный репозиторий
 ```sh
-git clone
+git clone [remote_repo_url_or_ssh]
 ```
