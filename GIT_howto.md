@@ -117,7 +117,7 @@ git log --graph
 
 - установить удаленный репозиторий по умолчанию
 ```sh
-git remote add origin https://github.com/Yuriy-Zhitkov/GB_git.gi
+git remote add origin https://github.com/Yuriy-Zhitkov/GB_git.git
 ```
 
 - показыть удаленный препозиторий
