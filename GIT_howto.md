@@ -120,7 +120,12 @@ git log --graph
 git remote add origin https://github.com/Yuriy-Zhitkov/GB_git.git
 ```
 
-- показыть удаленный препозиторий
+- сведения о ссылках на удаленном репозитории
+```sh
+git remote -v
+```
+
+- сведения о удаленном репозитории
 ```sh
 git remote show [remote_repo_name]
 ```
