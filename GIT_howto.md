@@ -154,3 +154,5 @@ git clone [remote_repo_url_or_ssh]
 ```sh
 git push origin --delete [branch_name]
 ```
+
+Разрешаем конфликт
