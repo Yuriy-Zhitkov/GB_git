@@ -82,6 +82,11 @@ git branch
 git branch [branch-name]
 ```
   
+- переименовать текущую ветку
+```sh
+git branch -M [new_name]
+```
+
 - переключитесь на другую ветку и проверьте ее в своем рабочем каталоге
 ```sh
 git checkout
@@ -107,3 +112,35 @@ git log --oneline
 git log --graph
 ```
 
+## 5 REMOTE - удаленный репозиторий
+
+
+- установить удаленный репозиторий по умолчанию
+```sh
+git remote add origin https://github.com/Yuriy-Zhitkov/GB_git.gi
+```
+
+- показыть удаленный препозиторий
+```sh
+git remote show [remote_repo_name]
+```
+
+- полный список удаленных ссылок
+```sh
+git ls-remote [remote_repo_name]
+```
+
+- загрузить файлы на удаленный репозиторий в ветку
+```sh
+git push -u origin main 
+```
+
+- скачать с удаленного репозитория
+```sh
+git pull 
+```
+
+- клонировать удаленный репозиторий
+```sh
+git clone
+```
